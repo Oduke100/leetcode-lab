@@ -10,6 +10,6 @@ class Solution:
         reverse = x[::-1]
 
         return (reverse == x)
-    
+        
 test = Solution()
 print(test.isPalindrome(1023456))
